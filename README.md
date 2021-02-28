@@ -4,7 +4,7 @@ Melanoma is one of the most frequent cancers which is caused by an uncontrolledg
 
 ## Method schema
 
-![MelanomaDetection](??)
+![MelanomaDetection](https://github.com/Omid-Asadi/MelanomaDetection/blob/main/PICTURE.png)
 
 ### Prerequisites and Installing packages
 
