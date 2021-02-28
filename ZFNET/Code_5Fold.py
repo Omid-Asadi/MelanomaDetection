@@ -39,7 +39,6 @@ from sklearn import metrics
 import statistics
 def ZFNET():
    
-    DROPOUT = 0.5
     N_CATEGORY=2
     model_input = Input(shape =(128,128,1))
     
