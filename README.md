@@ -30,8 +30,30 @@ NonMelanoma Images: https://uwaterloo.ca/vision-image-processing-lab/sites/ca.vi
 
 ### Codes
 #### 10 Fold cross validation
+[ProposedMethod](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/ProposedMethod/Code_10Fold.py)
+
+[VGG16](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/VGG16/Code_10Fold.py)
+
+[ALEXNET](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/AlexNet/Code_10Fold.py)
+
+[ZFNET](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/ZFNET/Code_10Fold.py)
+
 #### 5 Fold cross validation
+[ProposedMethod](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/ProposedMethod/Code_5Fold.py)
+
+[VGG16](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/VGG16/Code_5Fold.py)
+
+[ALEXNET](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/AlexNet/Code_5Fold.py)
+
+[ZFNET](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/ZFNET/Code_5Fold.py)
 #### Train test split (80-20%)
+[ProposedMethod](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/ProposedMethod/Code_TrainTestSplit.py)
+
+[VGG16](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/VGG16/Code_TrainTestSplit.py)
+
+[ALEXNET](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/AlexNet/Code_TrainTestSplit.py)
+
+[ZFNET](https://github.com/Omid-Asadi/MelanomaDetection/tree/main/ZFNET/Code_TrainTestSplit.py)
 #### Cross domain validation
 For testing the best model on another dataset, we used ???? data
 ### Results
