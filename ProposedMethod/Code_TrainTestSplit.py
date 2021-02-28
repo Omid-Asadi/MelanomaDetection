@@ -116,7 +116,6 @@ labels = np.array(labels)
 print(labels,len(labels))
 classTotals = labels.sum(axis=0)
 classWeight = classTotals.max() / classTotals
-skf=StratifiedKFold(n_splits=10, random_state=None, shuffle=True)
 # initialize the model
 Results=[]
 reallabels=[]
@@ -126,7 +125,6 @@ PR=[]
 REC=[]
 print()
 trainX, testX, trainY, testY = train_test_split(data, labels,stratify=labels, test_size=0.20, random_state=1)
-
 generator = tf.keras.preprocessing.image.ImageDataGenerator(
 horizontal_flip = True,
 vertical_flip = True,
