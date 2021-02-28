@@ -125,17 +125,15 @@ predictionslabel=[]
 AUCC=[]
 PR=[]
 REC=[]
-print()
+i=0
 for train_index, test_index in skf.split(data, labels):
+    i=i+1
     trainX, testX = data[train_index], data[test_index]
     trainY, testY = labels[train_index], labels[test_index]
-    
-
     generator = tf.keras.preprocessing.image.ImageDataGenerator(
     horizontal_flip = True,
     vertical_flip = True,
     rotation_range = 30)
-    
     le = LabelEncoder().fit(labels)
     trainY = np_utils.to_categorical(le.transform(trainY), 2)
 #    le = LabelEncoder().fit(testY)
@@ -155,7 +153,7 @@ for train_index, test_index in skf.split(data, labels):
     PR.append(precision)
     print('AUPR',average_precision,'presi',precision,'recall',recall)
 #    print(classification_report(testY.argmax(axis=1), predictions.argmax(axis=1), target_names=le.classes_))
-    model.save('mymodel.HDF5')
+    model.save('mymodel'+str(i)+'.HDF5')
 
    # Compute ROC curve and ROC area for each class
     fpr = dict()
